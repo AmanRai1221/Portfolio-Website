@@ -472,7 +472,7 @@ span {
     /* Fade in */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body {
         margin: 0;
     }
@@ -482,7 +482,7 @@ span {
         align-items: center;
         text-align: initial;
     }
-}
+} */
 
 /* Project section */
 
@@ -493,8 +493,11 @@ span {
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2.5rem;
     align-items: center;
 }
