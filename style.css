@@ -472,18 +472,6 @@ span {
     /* Fade in */
 }
 
-/* @media (max-width: 768px) {
-    body {
-        margin: 0;
-    }
-
-    .skills-container {
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        text-align: initial;
-    }
-} */
-
 /* Project section */
 
 .projects h2 {
@@ -493,8 +481,8 @@ span {
 }
 
 .project-container {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -508,6 +496,7 @@ span {
     box-shadow: 0 0 1rem #191f37;
     overflow: hidden;
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .project-box img {
@@ -558,14 +547,6 @@ span {
     margin: 1.5rem;
     color: #262b41;
 }
-
-/* .project-container .project-box:nth-child(7) {
-    display: grid;
-    grid-template-columns: repeat(1);
-    width: 420px;
-    height: 400px;
-    transition: 0.5s ease;
-} */
 
 /* .services */
 .services {
@@ -701,42 +682,6 @@ span {
 }
 
 /* BreakPoints */
-@media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
-
-    .home .profession-container {
-        height: 85.5rem;
-    }
-
-    .home .profession-container .profession-box {
-        right: -12rem;
-        height: 85.8rem;
-    }
-
-    .home .profession-container .overlay {
-        right: -9rem;
-    }
-}
-
-@media (max-width:1024px) {
-    .header {
-        padding: 2rem 3%;
-    }
-
-    section {
-        padding: 10rem 3% 2rem;
-    }
-
-    .home .profession-container .profession-box {
-        right: -22rem;
-    }
-
-    .home .profession-container .overlay {
-        right: -15rem;
-    }
-}
 
 @media (max-width: 991px) {
 
@@ -970,7 +915,7 @@ span {
     }
 }
 
-@media (max-width: 365px) {
+/* @media (max-width: 365px) {
     .about-img img {
         width: 80vw;
     }
@@ -983,4 +928,4 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
-}
+} */
