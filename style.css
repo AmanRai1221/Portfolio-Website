@@ -690,6 +690,11 @@ span {
 
 }
 @media (max-width: 799px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
     #menu-icon {
         display: block;
     }
@@ -843,10 +848,13 @@ span {
 }
 
 @media (max-width: 477px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
     html {
         font-size: 50%;
-        /* width: 100%; */
-        /* height: 100%; */
     }
     #menu-icon {
         display: block;
@@ -886,16 +894,21 @@ span {
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
-        margin-top: 58px;
+        margin-top: 26px;
     }
     .home .profession-container .overlay {
         position: fixed;
-        top: 51rem;
+        top: 53rem;
         left: -171px;
         right: 26px;
     }
     #skills p {
         font-size: 15px;
+    }
+
+    section {
+        min-height: 100vh;
+        padding: 3rem 7% 0;
     }
 
     .project-container {
