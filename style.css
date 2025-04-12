@@ -683,7 +683,12 @@ span {
 }
 
 /* BreakPoints */
+@media (max-width: 1025px){
+    .home .profession-container .profession-box {
+        display: none;
+    }
 
+}
 @media (max-width: 799px) {
     #menu-icon {
         display: block;
@@ -691,7 +696,7 @@ span {
 
     #darkMode-icon {
         position: absolute;
-        right: 7rem;
+        right: 10rem;
         font-size: 2.6rem;
         color: var(--text-color);
         margin-bottom: .1rem;
@@ -737,6 +742,7 @@ span {
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
+        margin-top: 58px;
     }
 
     .home-content h3 {
@@ -758,6 +764,7 @@ span {
     }
 
     .home .profession-container .profession-box {
+        display: none;
         position: fixed;
         top: 60%;
         left: 0;
@@ -765,13 +772,13 @@ span {
         width: 100%;
     }
 
-    .home .profession-box .profession {
+    /* .home .profession-box .profession {
         padding: 0 13px;
         left: auto;
         transform-origin: 0;
-    }
+    } */
 
-    .home .profession-box .profession:nth-child(1) {
+    /* .home .profession-box .profession:nth-child(1) {
         transform: rotate(-90deg) translate(-120%, -210%) scaleY(1);
     }
 
@@ -789,6 +796,10 @@ span {
 
     .home .profession-box .profession:nth-child(4) {
         transform: rotate(180deg) translate(-220px, -335px);
+    } */
+
+    .home-img img {
+        display: none;
     }
 
     .home .profession-box .circle {
@@ -800,8 +811,8 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 70rem;
-        left: 0;
+        top: 51rem;
+        left: -83px;
         right: 26px;
         transform: rotate(90deg) translate(-50%, -50%) scaleY(3);
         border-width: 23.9rem;
@@ -869,6 +880,19 @@ span {
     } */
     .home-img img{
         display: none;
+    }
+
+    .home {
+        padding: 0 3% 23rem;
+        justify-content: center;
+        text-align: center;
+        margin-top: 58px;
+    }
+    .home .profession-container .overlay {
+        position: fixed;
+        top: 51rem;
+        left: -171px;
+        right: 26px;
     }
     #skills p {
         font-size: 15px;
